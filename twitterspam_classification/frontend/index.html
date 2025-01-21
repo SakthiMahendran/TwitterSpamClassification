@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Fake News Detection App</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Detect fake news with our advanced AI-powered prediction app." />
+    <meta name="keywords" content="fake news, detection, AI, prediction, news authenticity, trustworthy, reliable" />
+    <meta name="author" content="Your Name or Company" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Fake News Detection App" />
+    <meta property="og:description" content="Use our cutting-edge AI-powered app to verify the authenticity of news." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://your-app-url.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fake News Detection App" />
+    <meta name="twitter:description" content="Check the reliability of news with our AI-powered tool." />
+    <meta name="twitter:image" content="/twitter-card-image.png" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1976d2" />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/animations.css" />
+
+    <!-- Vite JS -->
+    <script type="module" crossorigin src="/src/main.jsx"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Loading Animation -->
+    <div id="loading" style="display: none;">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Your Name or Company. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // Example: Show loading spinner while app loads
+      document.addEventListener("DOMContentLoaded", () => {
+        const loading = document.getElementById("loading");
+        const root = document.getElementById("root");
+
+        // Simulate loading for demonstration purposes
+        setTimeout(() => {
+          loading.style.display = "none";
+          root.style.display = "block";
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
